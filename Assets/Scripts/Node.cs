@@ -34,7 +34,7 @@ public class Node : MonoBehaviour {
     {
         if (turret != null)
         {
-            Debug.Log("Hit te deck!!");
+            Debug.Log("There is an already turret. First Sell it to build new one");
             return;
         }
 
