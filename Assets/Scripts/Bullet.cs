@@ -43,7 +43,7 @@ public class Bullet : MonoBehaviour {
     {
         GameObject effectIns = Instantiate(impactEffect, transform.position, transform.rotation);
         Debug.Log("Hit SMT!!");
-        Destroy(effectIns, 2f);
+        Destroy(effectIns, 5f);
 
         if (explosionRadius > 0f)
         {
