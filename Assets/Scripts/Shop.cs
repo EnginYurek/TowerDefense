@@ -2,6 +2,9 @@
 
 public class Shop : MonoBehaviour {
 
+    public TurretBlurprint standartTurret;
+    public TurretBlurprint missleLauncher;
+
     BuildManager buildManager;
 
     private void Start()
@@ -9,16 +12,16 @@ public class Shop : MonoBehaviour {
         buildManager = BuildManager.instance;
     }
 
-    public void purchaseStandardTurret()
+    public void selectStandardTurret()
     {
         Debug.Log("Standart Turret Selected");
-        buildManager.setTurretToBuild(buildManager.standardTurretPrefab);
+        buildManager.selectTurretToBuild(standartTurret);
     }
 
-    public void purchaseMissleLauncher()
+    public void selectMissleLauncher()
     {
         Debug.Log("Missle Launcher Selected");
-        buildManager.setTurretToBuild(buildManager.mislleLauncherPrefab);
+        buildManager.selectTurretToBuild(missleLauncher);
     }
 
 }
