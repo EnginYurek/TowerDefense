@@ -6,7 +6,7 @@ public class Node : MonoBehaviour {
 
 
     public Color hoverColor;
-
+    public Color notEnoughMoneyColour;
     private Renderer rend;
     private Color initialColor;
 
@@ -35,7 +35,14 @@ public class Node : MonoBehaviour {
         if (!buildManager.canBuild)
             return;
 
-        rend.material.color = hoverColor;
+        if (buildManager.hasMoney)
+        {
+            rend.material.color = hoverColor;
+        }
+        else
+        {
+            rend.material.color = notEnoughMoneyColour;
+        }
     }
 
 
