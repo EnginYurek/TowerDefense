@@ -303,7 +303,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.8, y: -20.08}
+  m_AnchoredPosition: {x: -0.79999924, y: -20.08}
   m_SizeDelta: {x: -37.83, y: -53.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &41380338
@@ -660,6 +660,8 @@ MonoBehaviour:
   standardTurretPrefab: {fileID: 1641993920951760, guid: c5efd86e9c9dc0045bb3ef59f891fe52,
     type: 2}
   mislleLauncherPrefab: {fileID: 1456100594748512, guid: be8e4c0b25884ba4695aa2af050bd6a9,
+    type: 2}
+  buildEffect: {fileID: 1362019026220460, guid: 97373caf3e25b6741a20f9730991c2a5,
     type: 2}
 --- !u!114 &99197566
 MonoBehaviour:

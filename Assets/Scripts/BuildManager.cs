@@ -8,6 +8,7 @@ public class BuildManager : MonoBehaviour {
 
     public GameObject standardTurretPrefab;
     public GameObject mislleLauncherPrefab;
+    public GameObject buildEffect;
 
 
     private void Awake()
@@ -42,6 +43,9 @@ public class BuildManager : MonoBehaviour {
 
         GameObject turret = (GameObject)Instantiate(turretToBuild.prefab, node.getBuildPosition(), Quaternion.identity);
         node.turret = turret;
+
+        GameObject effect = (GameObject)Instantiate(buildEffect, node.getBuildPosition(), Quaternion.identity);
+        Destroy(effect, 5);
 
         Debug.Log("Turret build! Money left: " + PlayerStats.money);
     }
