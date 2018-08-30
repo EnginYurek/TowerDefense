@@ -33,7 +33,7 @@ public class BuildManager : MonoBehaviour {
 
     public void buildTurretOn(Node node)
     {
-        if (PlayerStats.money <= turretToBuild.cost)
+        if (PlayerStats.money < turretToBuild.cost)
         {
             Debug.Log("Not enough money to build that");
             return;
