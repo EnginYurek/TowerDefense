@@ -5,9 +5,6 @@ public class BuildManager : MonoBehaviour {
     private TurretBlurprint turretToBuild;
 
     public static BuildManager instance;
-
-    public GameObject standardTurretPrefab;
-    public GameObject mislleLauncherPrefab;
     public GameObject buildEffect;
 
 
