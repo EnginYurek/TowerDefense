@@ -3,10 +3,11 @@
 public class BuildManager : MonoBehaviour {
 
     private TurretBlurprint turretToBuild;
+    private Node selectedNode;
 
     public static BuildManager instance;
     public GameObject buildEffect;
-
+    public NodeUI nodeUI;
 
     private void Awake()
     {
@@ -23,9 +24,28 @@ public class BuildManager : MonoBehaviour {
 
     public bool hasMoney { get { return PlayerStats.money >=  turretToBuild.cost; } }
 
+    public void selectNode(Node node)
+    {
+        if (selectedNode == node)
+        {
+            deselectNode();
+            return;
+        }
+        selectedNode = node;
+        turretToBuild = null;
+
+        nodeUI.setTarget(node);
+    }
+
+    public void deselectNode()
+    {
+        selectedNode = null;
+        nodeUI.hide();
+    }
     public void selectTurretToBuild(TurretBlurprint turret)
     {
         turretToBuild = turret;
+        deselectNode();
     }
 
     public void buildTurretOn(Node node)

@@ -53,14 +53,19 @@ public class Node : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        if (!buildManager.canBuild)
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
             return;
+        }
 
         if (turret != null)
         {
-            Debug.Log("There is an already turret. First Sell it to build new one");
+            buildManager.selectNode(this);
             return;
         }
+
+        if (!buildManager.canBuild)
+            return;
 
         buildManager.buildTurretOn(this);
 
