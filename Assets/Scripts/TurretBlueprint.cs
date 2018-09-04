@@ -11,4 +11,9 @@ public class TurretBlurprint {
 
     public GameObject upgradedPrefab;
     public int upgradeCost;
+
+    public int getSellAmount()
+    {
+        return cost / 2;
+    }
 }

@@ -9,6 +9,8 @@ public class BuildManager : MonoBehaviour {
     public GameObject buildEffect;
     public NodeUI nodeUI;
 
+    public GameObject sellEffect;
+
     private void Awake()
     {
         if (instance != null)

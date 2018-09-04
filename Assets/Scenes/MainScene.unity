@@ -812,7 +812,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &99197565
 MonoBehaviour:
@@ -828,6 +828,7 @@ MonoBehaviour:
   buildEffect: {fileID: 1362019026220460, guid: 97373caf3e25b6741a20f9730991c2a5,
     type: 2}
   nodeUI: {fileID: 1707210224}
+  sellEffect: {fileID: 1581211734987380, guid: ad84b5c344f2b9b4a994469872907285, type: 2}
 --- !u!114 &99197566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -853,48 +854,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverUI: {fileID: 218895675}
---- !u!1001 &106925593
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4495007696069224, guid: 607365a89e3008e4e96e440d430a9a2b, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 54.859737
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495007696069224, guid: 607365a89e3008e4e96e440d430a9a2b, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495007696069224, guid: 607365a89e3008e4e96e440d430a9a2b, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 55.00919
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495007696069224, guid: 607365a89e3008e4e96e440d430a9a2b, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495007696069224, guid: 607365a89e3008e4e96e440d430a9a2b, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495007696069224, guid: 607365a89e3008e4e96e440d430a9a2b, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495007696069224, guid: 607365a89e3008e4e96e440d430a9a2b, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495007696069224, guid: 607365a89e3008e4e96e440d430a9a2b, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 607365a89e3008e4e96e440d430a9a2b, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1001 &114551533
 Prefab:
   m_ObjectHideFlags: 0
@@ -1278,7 +1237,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 400.20605, y: -72.5}
+  m_AnchoredPosition: {x: 392.2309, y: -72.5}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &149173071
@@ -1587,7 +1546,7 @@ RectTransform:
   m_Children:
   - {fileID: 728573355}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1658,7 +1617,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -244.222, y: 8.768997, z: -404.607}
 --- !u!4 &185830504 stripped
 Transform:
@@ -2254,7 +2213,7 @@ Transform:
   - {fileID: 1927962515}
   - {fileID: 1011765215}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &232639288
 Prefab:
@@ -8071,7 +8030,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 235.20605, y: -75}
+  m_AnchoredPosition: {x: 227.2309, y: -75}
   m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0, y: 0}
 --- !u!1001 &961240686
@@ -8523,7 +8482,7 @@ Transform:
   - {fileID: 882867859}
   - {fileID: 2039530092}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &998106303
 Prefab:
@@ -10996,7 +10955,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1367558677
 Prefab:
@@ -11797,7 +11756,7 @@ RectTransform:
   - {fileID: 2098236151}
   - {fileID: 218895676}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -36.906002}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -12087,7 +12046,7 @@ Transform:
   - {fileID: 185830504}
   - {fileID: 1919549259}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1479567316
 Prefab:
@@ -13146,7 +13105,7 @@ RectTransform:
   - {fileID: 1086970142}
   - {fileID: 500927510}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -14013,7 +13972,7 @@ Transform:
   m_Children:
   - {fileID: 1866759095}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1707210224
 MonoBehaviour:
@@ -14029,6 +13988,7 @@ MonoBehaviour:
   ui: {fileID: 1866759094}
   upgradeCost: {fileID: 2085075203}
   upgradeButton: {fileID: 560149051}
+  sellAmount: {fileID: 501113763}
 --- !u!1001 &1708229125
 Prefab:
   m_ObjectHideFlags: 0
@@ -15064,7 +15024,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1834537022
 Prefab:
@@ -15443,7 +15403,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1866759095
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16539,7 +16499,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1974803715}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1707210224}
+        m_MethodName: sell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1974803715
@@ -17089,7 +17060,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 320.20605, y: -72.5}
+  m_AnchoredPosition: {x: 312.2309, y: -72.5}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &2085075201
@@ -17342,13 +17313,15 @@ MonoBehaviour:
   missleLauncher:
     prefab: {fileID: 1456100594748512, guid: be8e4c0b25884ba4695aa2af050bd6a9, type: 2}
     cost: 250
-    upgradedPrefab: {fileID: 0}
+    upgradedPrefab: {fileID: 1456100594748512, guid: 3ddbd64f1cbbbd6478a9bbef6bda778b,
+      type: 2}
     upgradeCost: 150
   laserBeamer:
     prefab: {fileID: 1978700556657084, guid: 344da3c1cc3bda2499b0fafe22af13cf, type: 2}
     cost: 350
-    upgradedPrefab: {fileID: 0}
-    upgradeCost: 210
+    upgradedPrefab: {fileID: 1978700556657084, guid: 4b0c1c10a1258f449b24caa3e8dd1c35,
+      type: 2}
+    upgradeCost: 250
 --- !u!1001 &2127550398
 Prefab:
   m_ObjectHideFlags: 0
