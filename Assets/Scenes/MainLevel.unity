@@ -872,10 +872,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5176065d7f1cde545aca027071b7c789, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 4744084777180820, guid: 1079bc2978cc17044a1c2ade51a351a2,
-    type: 2}
+  waves:
+  - enemy: {fileID: 1946233854346410, guid: 1079bc2978cc17044a1c2ade51a351a2, type: 2}
+    count: 1
+    rate: 2
+  - enemy: {fileID: 1946233854346410, guid: 1079bc2978cc17044a1c2ade51a351a2, type: 2}
+    count: 2
+    rate: 2
+  - enemy: {fileID: 1946233854346410, guid: 1079bc2978cc17044a1c2ade51a351a2, type: 2}
+    count: 5
+    rate: 2
+  - enemy: {fileID: 1946233854346410, guid: 0665855142213c241a24c3232f29310d, type: 2}
+    count: 3
+    rate: 1
+  - enemy: {fileID: 1946233854346410, guid: 803c9c29364322541869b34b46f62e19, type: 2}
+    count: 10
+    rate: 3
   spawnPoint: {fileID: 1011765215}
-  timeBetweenWaves: 10
+  timeBetweenWaves: 2
   waveCountDownText: {fileID: 500927512}
 --- !u!4 &99197564
 Transform:
@@ -1327,7 +1341,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 411.44952, y: -72.5}
+  m_AnchoredPosition: {x: 414.36838, y: -72.5}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &149173071
@@ -8564,7 +8578,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 246.44952, y: -75}
+  m_AnchoredPosition: {x: 249.36838, y: -75}
   m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0, y: 0}
 --- !u!1001 &961240686
@@ -18005,7 +18019,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 331.44952, y: -72.5}
+  m_AnchoredPosition: {x: 334.36838, y: -72.5}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &2085075201
